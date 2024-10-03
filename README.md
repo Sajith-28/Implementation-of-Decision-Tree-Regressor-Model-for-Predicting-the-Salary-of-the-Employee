@@ -26,7 +26,6 @@ RegisterNumber: 212223240144
 */
 
 import pandas as pd
-import matplotlib.pyplot as plt
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 data = pd.read_csv('Salary.csv')
 data.head()
